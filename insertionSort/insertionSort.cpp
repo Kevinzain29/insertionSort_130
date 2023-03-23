@@ -51,6 +51,19 @@ void insertionSort() {
     }
 }
 
+void diplay() {
+    cout << endl;
+    cout << "Total Element Movement = " << n - 1 << endl;
+    cout << "===================================" << endl;
+    cout << "Element Array yang telah Tersusun" << endl;
+    cout << "===================================" << endl;
+
+    for (int j = 0; j < n; j++) {
+        cout << arr[j] << endl;
+    }
+    cout << endl;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
