@@ -67,5 +67,6 @@ void diplay() {
 int main()
 {
     input();
+    insertionSort();
 }
 
