@@ -58,10 +58,10 @@ void diplay() {
     cout << "Element Array yang telah Tersusun" << endl;
     cout << "===================================" << endl;
 
-    for (int j = 0; j < n; j++) {
-        cout << arr[j] << endl;
+    for (int j = 0; j < n; j++) {           //looping dengan j dimulai dari 0 hingga n-1
+        cout << arr[j] << endl;             //output ke layar
     }
-    cout << endl;
+    cout << endl;                           //output baris kosong
 }
 
 int main()
