@@ -66,6 +66,6 @@ void diplay() {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
 }
 
