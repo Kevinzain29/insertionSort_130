@@ -51,7 +51,7 @@ void insertionSort() {
     }
 }
 
-void diplay() {
+void display() {
     cout << endl;
     cout << "Total Element Movement = " << n - 1 << endl;
     cout << "===================================" << endl;
@@ -68,5 +68,6 @@ int main()
 {
     input();
     insertionSort();
+    display();
 }
 
