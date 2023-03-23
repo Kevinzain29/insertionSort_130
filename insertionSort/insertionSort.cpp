@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];
-int n;
+int arr[20];        //membuat array dengan panjang data 20
+int n;              //membuat variabel inputan n
 
 void input() {      //prosedur input
     while (true) {
         cout << "Masukkan Jumlah Data Pada Array: ";        //input jumlah element
-        cin >> n;        //memanggil inputan n
+        cin >> n;        //memanggil variabel inputan n
 
         if (n <= 20) {      //kondisi n tidak lebih dari 20
             break;
         }
         else {
-            cout << "\nArray yang anda masukkan maksimal 20 element. \n";       //Menampilkan pesan berlebih
+            cout << "\nArray yang anda masukkan maksimal 20 element. \n";       //menampilakan pesan berlebih
         }
     }
     cout << endl;       //membuat jarak
@@ -66,8 +66,8 @@ void display() {
 
 int main()
 {
-    input();
-    insertionSort();
-    display();
+    input();        //mamanggil input
+    insertionSort();    //memanggil insertionsort
+    display();      //memanggil display
 }
 
