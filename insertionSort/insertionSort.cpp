@@ -37,7 +37,7 @@ void insertionSort() {
         j = i - 1;
 
         while (j >= 0 && arr[j] > temp) {       //4. looping while dimana nilai j lebih besar sama dengan 0 dan array[j] lebih besar dari temp
-            arr[j + 1] - arr[j];                //simpan arr[j] kedalam variable arr[j+1]
+            arr[j + 1] = arr[j];                //simpan arr[j] kedalam variable arr[j+1]
             j--;                                //j decrement
         }
 
